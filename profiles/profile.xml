@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="profile_association">
+		<fieldset
+			name="profile_association"
+			label="PLG_USER_PROFILE_ASSOCIATION_SLIDER_LABEL"
+		>
+			<field
+				name="first_name"
+				type="text"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_FIRST_NAME_LABEL"
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_FIRST_NAME_DESC"
+				id="first_name"
+				filter="string"
+				size="30"
+			/>
+
+			<field
+				name="last_name"
+				type="text"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_LAST_NAME_LABEL"
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_LAST_NAME_DESC"
+				id="last_name"
+				filter="string"
+				size="30"
+			/>
+
+			<field
+				name="born_at_state"
+				type="text"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_BORN_AT_STATE_LABEL"
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_BORN_AT_STATE_DESC"
+				id="born_at_state"
+				filter="string"
+				size="30"
+			/>
+
+			<field
+				name="city"
+				type="text"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_CITY_LABEL"
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_CITY_DESC"
+				id="city"
+				filter="string"
+				size="30"
+			/>
+
+			<field
+				name="state"
+				type="list"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_STATE_LABEL"
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_STATE_DESC"
+				id="state"
+                    filter="string"
+				default=""
+				>
+                    <option value="default">Seleziona / Select </option>
+                    <option value="Agrigento">Agrigento</option>
+                    <option value="Alessandria">Alessandria</option>
+                    <option value="Ancona">Ancona</option>
+                     <option value="Aosta">Aosta</option>
+                    <option value="Arezzo">Arezzo</option>
+                    <option value="Ascoli Piceno">Ascoli Piceno</option>
+                    <option value="Asti">Asti</option>
+                    <option value="Avellino">Avellino</option>
+                    <option value="Bari">Bari</option>
+                    <option value="Belluno">Belluno</option>
+                    <option value="Benevento">Benevento</option>
+                    <option value="Bergamo">Bergamo</option>
+                    <option value="Biella">Biella</option>
+                    <option value="Bologna">Bologna</option>
+                    <option value="Bolzano">Bolzano</option>
+                    <option value="Brescia">Brescia</option>
+                    <option value="Brindisi">Brindisi</option>
+                    <option value="Cagliari">Cagliari</option>
+                    <option value="Caltanissetta">Caltanissetta</option>
+                    <option value="Campobasso">Campobasso</option>
+                    <option value="Caserta">Caserta</option>
+                    <option value="Catania">Catania</option>
+                    <option value="Catanzaro">Catanzaro</option>
+                    <option value="Chieti">Chieti</option>
+                    <option value="Como">Como</option>
+                    <option value="Cosenza">Cosenza</option>
+                    <option value="Cremona">Cremona</option>
+                    <option value="Crotone">Crotone</option>
+                    <option value="Cuneo">Cuneo</option>
+                    <option value="Enna">Enna</option>
+                    <option value="Ferrara">Ferrara</option>
+                    <option value="Firenze">Firenze</option>
+                    <option value="Foggia">Foggia</option>
+                    <option value="Forli'-Cesena">Forli'-Cesena</option>
+                    <option value="Frosinone">Frosinone</option>
+                    <option value="Genova">Genova</option>
+                    <option value="Gorizia">Gorizia</option>
+                    <option value="Grossetov">Grosseto</option>
+                    <option value="Imperia">Imperia</option>
+                    <option value="Isernia">Isernia</option>
+                    <option value="La Spezia">La Spezia</option>
+                    <option value="L'Aquila">L'Aquila</option>
+                    <option value="Latina">Latina</option>
+                    <option value="Lecce">Lecce</option>
+                    <option value="Lecco">Lecco</option>
+                    <option value="Livorno">Livorno</option>
+                    <option value="Lodi">Lodi</option>
+                    <option value="Lucca">Lucca</option>
+                    <option value="Macerata">Macerata</option>
+                    <option value="Mantova">Mantova</option>
+                    <option value="Massa-Carrara">Massa-Carrara</option>
+                    <option value="Matera">Matera</option>
+                    <option value="Messina">Messina</option>
+                    <option value="Milano">Milano</option>
+                    <option value="Modena">Modena</option>
+                    <option value="Napoli">Napoli</option>
+                    <option value="Novara">Novara</option>
+                    <option value="Nuoro">Nuoro</option>
+                    <option value="Oristano">Oristano</option>
+                    <option value="Padova">Padova</option>
+                    <option value="Palermo">Palermo</option>
+                    <option value="Parma">Parma</option>
+                    <option value="Pavia">Pavia</option>
+                    <option value="Perugia">Perugia</option>
+                    <option value="Pesaro e Urbino">Pesaro e Urbino</option>
+                    <option value="Pescara">Pescara</option>
+                    <option value="Piacenza">Piacenza</option>
+                    <option value="Pisa">Pisa</option>
+                    <option value="Pistoia">Pistoia</option>
+                    <option value="Pordenone">Pordenone</option>
+                    <option value="Potenza">Potenza</option>
+                    <option value="Prato">Prato</option>
+                    <option value="Ragusa">Ragusa</option>
+                    <option value="Ravenna">Ravenna</option>
+                    <option value="Reggio di Calabria">Reggio di Calabria</option>
+                    <option value="Reggio nell'Emilia">Reggio nell'Emilia</option>
+                    <option value="Rieti">Rieti</option>
+                    <option value="Rimini">Rimini</option>
+                    <option value="Roma">Roma</option>
+                    <option value="Rovigo">Rovigo</option>
+                    <option value="Salerno">Salerno</option>
+                    <option value="Sassari">Sassari</option>
+                    <option value="Savona">Savona</option>
+                    <option value="Siena">Siena</option>
+                    <option value="Siracusa">Siracusa</option>
+                    <option value="Sondrio">Sondrio</option>
+                    <option value="Taranto">Taranto</option>
+                    <option value="Teramo">Teramo</option>
+                    <option value="Terni">Terni</option>
+                    <option value="Torino">Torino</option>
+                    <option value="Trapani">Trapani</option>
+                    <option value="Trento">Trento</option>
+                    <option value="Treviso">Treviso</option>
+                    <option value="Trieste">Trieste</option>
+                    <option value="Udine">Udine</option>
+                    <option value="Varese">Varese</option>
+                    <option value="Venezia">Venezia</option>
+                    <option value="Verbano-Cusio-Ossola">Verbano-Cusio-Ossola</option>
+                    <option value="Vercelli">Vercelli</option>
+                    <option value="Verona">Verona</option>
+                    <option value="Vibo Valentia">Vibo Valentia</option>
+                    <option value="Vicenza">Vicenza</option>
+                     <option value="Viterbo">Viterbo</option>
+               </field>
+			
+				
+			<field
+				name="born_at"
+				type="dob"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_BORN_AT_LABEL"
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_BORN_AT_DESC"
+				info="PLG_USER_PROFILE_ASSOCIATION_SPACER_BORN_AT"
+				id="born_at"
+				filter="string"
+				size="30"
+			/>
+
+			<field
+				name="address"
+				type="text"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_ADDRESS_LABEL"
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_ADDRESS_DESC"
+				id="address"
+				filter="string"
+				size="30"
+			/>
+
+			<field
+				name="number"
+				type="text"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_NUMBER_LABEL"
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_NUMBER_DESC"
+				id="number"
+				filter="string"
+				size="30"
+			/>
+			
+			<field
+				name="postal_code"
+				type="text"
+				id="postal_code"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_POSTAL_CODE_LABEL"
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_POSTAL_CODE_DESC"
+				filter="string"
+				size="30"
+			/>
+
+			<field
+				name="phone"
+				type="tel"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_PHONE_LABEL"
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_PHONE_DESC"
+				id="phone"
+				filter="string"
+				size="30"
+			/>
+
+			<field
+				name="fiscal_code"
+				type="text"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_FISCAL_CODE_LABEL"
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_FISCAL_CODE_DESC"
+				id="fiscal_code"
+				filter="string"
+				size="30"
+			/>
+
+			<field
+				name="country"
+				type="list"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_COUNTRY_LABEL"
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_COUNTRY_DESC"
+				id="country"
+				default=""
+				>
+				<option value="default">Seleziona / Select </option>
+                    <option value="AFG">Afghanistan</option>
+                    <option value="ALA">Aland Islands</option>
+                    <option value="ALB">Albania</option>
+                    <option value="DZA">Algeria</option>
+                    <option value="ASM">American Samoa</option>
+                    <option value="AND">Andorra</option>
+                    <option value="AGO">Angola</option>
+                    <option value="AIA">Anguilla</option>
+                    <option value="ATA">Antarctica</option>
+                    <option value="ATG">Antigua and Barbuda</option>
+                    <option value="ARG">Argentina</option>
+                    <option value="ARM">Armenia</option>
+                    <option value="ABW">Aruba</option>
+                    <option value="AUS">Australia</option>
+                    <option value="AUT">Austria</option>
+                    <option value="AZE">Azerbaijan</option>
+                    <option value="BHS">Bahamas</option>
+                    <option value="BHR">Bahrain</option>
+                    <option value="BGD">Bangladesh</option>
+                    <option value="BRB">Barbados</option>
+                    <option value="BLR">Belarus</option>
+                    <option value="BEL">Belgium</option>
+                    <option value="BLZ">Belize</option>
+                    <option value="BEN">Benin</option>
+                    <option value="BMU">Bermuda</option>
+                    <option value="BTN">Bhutan</option>
+                    <option value="BOL">Bolivia, Plurinational State of</option>
+                    <option value="BES">Bonaire, Sint Eustatius and Saba</option>
+                    <option value="BIH">Bosnia and Herzegovina</option>
+                    <option value="BWA">Botswana</option>
+                    <option value="BVT">Bouvet Island</option>
+                    <option value="BRA">Brazil</option>
+                    <option value="IOT">British Indian Ocean Territory</option>
+                    <option value="BRN">Brunei Darussalam</option>
+                    <option value="BGR">Bulgaria</option>
+                    <option value="BFA">Burkina Faso</option>
+                    <option value="BDI">Burundi</option>
+                    <option value="KHM">Cambodia</option>
+                    <option value="CMR">Cameroon</option>
+                    <option value="CAN">Canada</option>
+                    <option value="CPV">Cape Verde</option>
+                    <option value="CYM">Cayman Islands</option>
+                    <option value="CAF">Central African Republic</option>
+                    <option value="TCD">Chad</option>
+                    <option value="CHL">Chile</option>
+                    <option value="CHN">China</option>
+                    <option value="CXR">Christmas Island</option>
+                    <option value="CCK">Cocos (Keeling) Islands</option>
+                    <option value="COL">Colombia</option>
+                    <option value="COM">Comoros</option>
+                    <option value="COG">Congo</option>
+                    <option value="COD">Congo, the Democratic Republic of the</option>
+                    <option value="COK">Cook Islands</option>
+                    <option value="CRI">Costa Rica</option>
+                    <option value="CIV">Côte d'Ivoire</option>
+                    <option value="HRV">Croatia</option>
+                    <option value="CUB">Cuba</option>
+                    <option value="CUW">Curaçao</option>
+                    <option value="CYP">Cyprus</option>
+                    <option value="CZE">Czech Republic</option>
+                    <option value="DNK">Denmark</option>
+                    <option value="DJI">Djibouti</option>
+                    <option value="DMA">Dominica</option>
+                    <option value="DOM">Dominican Republic</option>
+                    <option value="ECU">Ecuador</option>
+                    <option value="EGY">Egypt</option>
+                    <option value="SLV">El Salvador</option>
+                    <option value="GNQ">Equatorial Guinea</option>
+                    <option value="ERI">Eritrea</option>
+                    <option value="EST">Estonia</option>
+                    <option value="ETH">Ethiopia</option>
+                    <option value="FLK">Falkland Islands (Malvinas)</option>
+                    <option value="FRO">Faroe Islands</option>
+                    <option value="FJI">Fiji</option>
+                    <option value="FIN">Finland</option>
+                    <option value="FRA">France</option>
+                    <option value="GUF">French Guiana</option>
+                    <option value="PYF">French Polynesia</option>
+                    <option value="ATF">French Southern Territories</option>
+                    <option value="GAB">Gabon</option>
+                    <option value="GMB">Gambia</option>
+                    <option value="GEO">Georgia</option>
+                    <option value="DEU">Germany</option>
+                    <option value="GHA">Ghana</option>
+                    <option value="GIB">Gibraltar</option>
+                    <option value="GRC">Greece</option>
+                    <option value="GRL">Greenland</option>
+                    <option value="GRD">Grenada</option>
+                    <option value="GLP">Guadeloupe</option>
+                    <option value="GUM">Guam</option>
+                    <option value="GTM">Guatemala</option>
+                    <option value="GGY">Guernsey</option>
+                    <option value="GIN">Guinea</option>
+                    <option value="GNB">Guinea-Bissau</option>
+                    <option value="GUY">Guyana</option>
+                    <option value="HTI">Haiti</option>
+                    <option value="HMD">Heard Island and McDonald Islands</option>
+                    <option value="VAT">Holy See (Vatican City State)</option>
+                    <option value="HND">Honduras</option>
+                    <option value="HKG">Hong Kong</option>
+                    <option value="HUN">Hungary</option>
+                    <option value="ISL">Iceland</option>
+                    <option value="IND">India</option>
+                    <option value="IDN">Indonesia</option>
+                    <option value="IRN">Iran, Islamic Republic of</option>
+                    <option value="IRQ">Iraq</option>
+                    <option value="IRL">Ireland</option>
+                    <option value="IMN">Isle of Man</option>
+                    <option value="ISR">Israel</option>
+                    <option value="ITA">Italy</option>
+                    <option value="JAM">Jamaica</option>
+                    <option value="JPN">Japan</option>
+                    <option value="JEY">Jersey</option>
+                    <option value="JOR">Jordan</option>
+                    <option value="KAZ">Kazakhstan</option>
+                    <option value="KEN">Kenya</option>
+                    <option value="KIR">Kiribati</option>
+                    <option value="PRK">Korea, Democratic People's Republic of</option>
+                    <option value="KOR">Korea, Republic of</option>
+                    <option value="KWT">Kuwait</option>
+                    <option value="KGZ">Kyrgyzstan</option>
+                    <option value="LAO">Lao People's Democratic Republic</option>
+                    <option value="LVA">Latvia</option>
+                    <option value="LBN">Lebanon</option>
+                    <option value="LSO">Lesotho</option>
+                    <option value="LBR">Liberia</option>
+                    <option value="LBY">Libya</option>
+                    <option value="LIE">Liechtenstein</option>
+                    <option value="LTU">Lithuania</option>
+                    <option value="LUX">Luxembourg</option>
+                    <option value="MAC">Macao</option>
+                    <option value="MKD">Macedonia, the former Yugoslav Republic of</option>
+                    <option value="MDG">Madagascar</option>
+                    <option value="MWI">Malawi</option>
+                    <option value="MYS">Malaysia</option>
+                    <option value="MDV">Maldives</option>
+                    <option value="MLI">Mali</option>
+                    <option value="MLT">Malta</option>
+                    <option value="MHL">Marshall Islands</option>
+                    <option value="MTQ">Martinique</option>
+                    <option value="MRT">Mauritania</option>
+                    <option value="MUS">Mauritius</option>
+                    <option value="MYT">Mayotte</option>
+                    <option value="MEX">Mexico</option>
+                    <option value="FSM">Micronesia, Federated States of</option>
+                    <option value="MDA">Moldova, Republic of</option>
+                    <option value="MCO">Monaco</option>
+                    <option value="MNG">Mongolia</option>
+                    <option value="MNE">Montenegro</option>
+                    <option value="MSR">Montserrat</option>
+                    <option value="MAR">Morocco</option>
+                    <option value="MOZ">Mozambique</option>
+                    <option value="MMR">Myanmar</option>
+                    <option value="NAM">Namibia</option>
+                    <option value="NRU">Nauru</option>
+                    <option value="NPL">Nepal</option>
+                    <option value="NLD">Netherlands</option>
+                    <option value="NCL">New Caledonia</option>
+                    <option value="NZL">New Zealand</option>
+                    <option value="NIC">Nicaragua</option>
+                    <option value="NER">Niger</option>
+                    <option value="NGA">Nigeria</option>
+                    <option value="NIU">Niue</option>
+                    <option value="NFK">Norfolk Island</option>
+                    <option value="MNP">Northern Mariana Islands</option>
+                    <option value="NOR">Norway</option>
+                    <option value="OMN">Oman</option>
+                    <option value="PAK">Pakistan</option>
+                    <option value="PLW">Palau</option>
+                    <option value="PSE">Palestinian Territory, Occupied</option>
+                    <option value="PAN">Panama</option>
+                    <option value="PNG">Papua New Guinea</option>
+                    <option value="PRY">Paraguay</option>
+                    <option value="PER">Peru</option>
+                    <option value="PHL">Philippines</option>
+                    <option value="PCN">Pitcairn</option>
+                    <option value="POL">Poland</option>
+                    <option value="PRT">Portugal</option>
+                    <option value="PRI">Puerto Rico</option>
+                    <option value="QAT">Qatar</option>
+                    <option value="REU">Réunion</option>
+                    <option value="ROU">Romania</option>
+                    <option value="RUS">Russian Federation</option>
+                    <option value="RWA">Rwanda</option>
+                    <option value="BLM">Saint Barthélemy</option>
+                    <option value="SHN">Saint Helena, Ascension and Tristan da Cunha</option>
+                    <option value="KNA">Saint Kitts and Nevis</option>
+                    <option value="LCA">Saint Lucia</option>
+                    <option value="MAF">Saint Martin (French part)</option>
+                    <option value="SPM">Saint Pierre and Miquelon</option>
+                    <option value="VCT">Saint Vincent and the Grenadines</option>
+                    <option value="WSM">Samoa</option>
+                    <option value="SMR">San Marino</option>
+                    <option value="STP">Sao Tome and Principe</option>
+                    <option value="SAU">Saudi Arabia</option>
+                    <option value="SEN">Senegal</option>
+                    <option value="SRB">Serbia</option>
+                    <option value="SYC">Seychelles</option>
+                    <option value="SLE">Sierra Leone</option>
+                    <option value="SGP">Singapore</option>
+                    <option value="SXM">Sint Maarten (Dutch part)</option>
+                    <option value="SVK">Slovakia</option>
+                    <option value="SVN">Slovenia</option>
+                    <option value="SLB">Solomon Islands</option>
+                    <option value="SOM">Somalia</option>
+                    <option value="ZAF">South Africa</option>
+                    <option value="SGS">South Georgia and the South Sandwich Islands</option>
+                    <option value="SSD">South Sudan</option>
+                    <option value="ESP">Spain</option>
+                    <option value="LKA">Sri Lanka</option>
+                    <option value="SDN">Sudan</option>
+                    <option value="SUR">Suriname</option>
+                    <option value="SJM">Svalbard and Jan Mayen</option>
+                    <option value="SWZ">Swaziland</option>
+                    <option value="SWE">Sweden</option>
+                    <option value="CHE">Switzerland</option>
+                    <option value="SYR">Syrian Arab Republic</option>
+                    <option value="TWN">Taiwan, Province of China</option>
+                    <option value="TJK">Tajikistan</option>
+                    <option value="TZA">Tanzania, United Republic of</option>
+                    <option value="THA">Thailand</option>
+                    <option value="TLS">Timor-Leste</option>
+                    <option value="TGO">Togo</option>
+                    <option value="TKL">Tokelau</option>
+                    <option value="TON">Tonga</option>
+                    <option value="TTO">Trinidad and Tobago</option>
+                    <option value="TUN">Tunisia</option>
+                    <option value="TUR">Turkey</option>
+                    <option value="TKM">Turkmenistan</option>
+                    <option value="TCA">Turks and Caicos Islands</option>
+                    <option value="TUV">Tuvalu</option>
+                    <option value="UGA">Uganda</option>
+                    <option value="UKR">Ukraine</option>
+                    <option value="ARE">United Arab Emirates</option>
+                    <option value="GBR">United Kingdom</option>
+                    <option value="USA">United States</option>
+                    <option value="UMI">United States Minor Outlying Islands</option>
+                    <option value="URY">Uruguay</option>
+                    <option value="UZB">Uzbekistan</option>
+                    <option value="VUT">Vanuatu</option>
+                    <option value="VEN">Venezuela, Bolivarian Republic of</option>
+                    <option value="VNM">Viet Nam</option>
+                    <option value="VGB">Virgin Islands, British</option>
+                    <option value="VIR">Virgin Islands, U.S.</option>
+                    <option value="WLF">Wallis and Futuna</option>
+                    <option value="ESH">Western Sahara</option>
+                    <option value="YEM">Yemen</option>
+                    <option value="ZMB">Zambia</option>
+                    <option value="ZWE">Zimbabwe</option>
+			</field>
+
+			<field
+				name="identity_document_type"
+				type="list"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_IDENTITY_DOCUMENT_TYPE_LABEL" 
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_IDENTITY_DOCUMENT_TYPE_DESC"
+				id="identity_document_type"
+				default="0"
+                    >
+                    <option value="default">Seleziona / Select </option>
+                    <option value="Carta D'identità">Carta D'identita'</option>
+                    <option value="Carta D'identità estera">Carta D'identita' estera</option>
+                    <option value="Certificato di Nascita">Certificato di Nascita</option>
+                    <option value="Foglio Matricolare Rilasciato Autorità Carcerari">Foglio Matricolare Rilasciato Autorita' Carcerari</option>
+                    <option value="Lib. nominativo per minorati civili MOD. 4-A.P.">Lib. nominativo per minorati civili MOD. 4-A.P.</option>
+                    <option value="lib. pensioni INPS">lib. pensioni inps</option>
+                    <option value="Libretto ciechi ed invalidi">Libretto ciechi ed invalidi</option>
+                    <option value="Passaporto">Passaporto</option>
+                    <option value="Passaporto estero">Passaporto estero</option>
+                    <option value="Pat. Guida">Pat. Guida</option>
+                    <option value="Permesso sogg. stranieri">Permesso sogg. stranieri</option>
+                    <option value="Porto d'armi">Porto d'armi</option>
+                    <option value="Tes. dip statali civili militari">Tes. dip statali civili militari</option>
+               </field>
+			
+			<field
+				name="identity_document_authority"
+				type="list"
+				id="identity_document_authority"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_IDENTITY_DOCUMENT_AUTHORITY_LABEL"
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_IDENTITY_DOCUMENT_AUTHORITY_DESC"
+				default="0"
+                    >
+                    <option value="default">Seleziona / Select </option>
+                    <option value="Ambasciata">Ambasciata</option>
+                    <option value="Autorita'">Autorita'</option>
+                    <option value="Autorita' Carceraria">Autorita' Carceraria</option>
+                    <option value="Commissariato">Commissariato</option>
+                    <option value="Comune">Comune</option>
+                    <option value="Consolato">Consolato</option>
+                    <option value="Governo">Governo</option>
+                    <option value="Inps sede di">Inps sede di</option>
+                    <option value="Ministero">Ministero</option>
+                    <option value="Motorizzazione">Motorizzazione</option>
+                    <option value="Polizia">Polizia</option>
+                    <option value="Polizia Penitenziaria">Polizia Penitenziaria</option>
+                    <option value="Prefettura">Prefettura</option>
+                    <option value="Questura">Questura</option>
+                    <option value="Repubblica">Repubblica</option>
+                    <option value="Uco">Uco</option>
+                    <option value="Ufficio">Ufficio</option>
+               </field>
+
+			<field
+				name="numer_document"
+				type="text"
+				id="numer_document"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_NUMBER_DOCUMENT_LABEL"
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_NUMBER_DOCUMENT_DESC"
+				filter="string"
+				size="30"
+			/>
+
+			<field
+				name="identity_document_issued_date"
+				type="dob"
+				id="identity_document_issued_date"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_IDENTITY_DOCUMENT_ISSUED_DATE_LABEL"
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_IDENTITY_DOCUMENT_ISSUED_DATE_DESC"
+				info="PLG_USER_PROFILE_ASSOCIATION_SPACER_IDENTITY_DOCUMENT_ISSUED_DATE"
+				translateformat="true"
+				showtime="false"
+				filter="server_utc"
+			/>
+			
+			<field
+				name="identity_document_expiration_date"
+				type="dob"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_IDENTITY_DOCUMENT_EXPIRATION_DATE_LABEL"
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_IDENTITY_DOCUMENT_EXPIRATION_DATE_DESC"
+				info="PLG_USER_PROFILE_ASSOCIATION_SPACER_IDENTITY_DOCUMENT_EXPIRATION_DATE"
+				translateformat="true"
+				showtime="false"
+				filter="server_utc"
+			/>
+
+			<field
+				name="profession"
+				type="text"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_PROFESSION_LABEL"
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_PROFESSION_DESC"
+				id="profession"
+				filter="string"
+				size="30"
+			/>
+
+			<field
+				name="googleplus"
+				type="url"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_GOOGLEPLUS_LABEL"
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_GOOGLEPLUS_DESC"
+				id="googleplus"
+				filter="url"
+				size="30"
+			/>
+
+			<field
+				name="linkedin"
+				type="url"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_LINKEDIN_LABEL"
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_LINKEDIN_DESC"
+				id="linkedin"
+				filter="url"
+				size="30"
+			/>
+
+			<field
+				name="website"
+				type="url"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_WEB_SITE_LABEL"
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_WEB_SITE_DESC"
+				id="website"
+				filter="url"
+				size="30"
+			/>
+
+			<field
+				name="favoritebook"
+				type="text"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_FAVORITE_BOOK_LABEL"
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_FAVORITE_BOOK_DESC"
+				filter="string"
+				size="30"
+			/>
+
+               <field
+                    name="aboutme"
+                    type="textarea"
+                    label="PLG_USER_PROFILE_ASSOCIATION_FIELD_ABOUT_ME_LABEL"
+                    description="PLG_USER_PROFILE_ASSOCIATION_FIELD_ABOUT_ME_DESC"
+                    cols="30"
+                    rows="5"
+                    filter="safehtml"
+               />
+
+			<field
+				name="region"
+				type="list"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_REGION_LABEL"
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_REGION_DESC"
+                    id="region"
+				default="0"
+                    >
+                    <option value="Regione">Regione</option>
+                    <option value="Piemonte">Piemonte</option>
+                    <option value="Valle d'Aosta">Valle d'Aosta</option>
+                    <option value="Lombardia">Lombardia</option>
+                    <option value="Trentino-Alto Adige">Trentino-Alto Adige</option>
+                    <option value="Veneto">Veneto</option>
+                    <option value="Friuli-Venezia Giulia">Friuli-Venezia Giulia</option>
+                    <option value="Liguria">Liguria</option>
+                    <option value="Emilia-Romagna">Emilia-Romagna</option>
+                    <option value="Toscana">Toscana</option>
+                    <option value="Umbria">Umbria</option>
+                    <option value="Marche">Marche</option>
+                    <option value="Lazio">Lazio</option>
+                    <option value="Abruzzo">Abruzzo</option>
+                    <option value="Molise">Molise</option>
+                    <option value="Campania">Campania</option>
+                    <option value="Puglia">Puglia</option>
+                    <option value="Basilicata">Basilicata</option>
+                    <option value="Calabria">Calabria</option>
+                    <option value="Sicilia">Sicilia</option>
+                    <option value="Sardegna">Sardegna</option>
+               </field>
+
+			<field
+				name="tos"
+				type="tos"
+				label="PLG_USER_PROFILE_ASSOCIATION_FIELD_TOS_LABEL"
+				description="PLG_USER_PROFILE_ASSOCIATION_FIELD_TOS_DESC"
+				default="0"
+				>
+				<option value="1">PLG_USER_PROFILE_ASSOCIATION_OPTION_AGREE</option>
+				<option value="0">JNO</option>
+			</field>
+		</fieldset>
+	</fields>
+</form>
